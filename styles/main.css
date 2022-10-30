@@ -123,8 +123,8 @@ li{
 }
 
 .card--techstack{
-    border: 1px solid var(--mainBorderColor);
-    border-radius: 5px;
+    /*border: 1px solid var(--mainBorderColor);
+    border-radius: 5px;*/
     padding: 0.5em 1em;
     align-items: center;
 }
