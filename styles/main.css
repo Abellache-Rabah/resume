@@ -16,6 +16,10 @@
 
 }
 
+*::selection{
+    background-color: #6C4AB6;
+}
+
 *{
     font-family: 'Readex Pro';
     line-height: 1.5em;
@@ -74,7 +78,6 @@ li{
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 2px dashed #5F9DF7;
 }
 
 #email{
@@ -123,14 +126,16 @@ li{
 }
 
 .card--techstack{
-    /*border: 1px solid var(--mainBorderColor);
-    border-radius: 5px;*/
+   
     padding: 0.5em 1em;
     align-items: center;
 }
 
 
-
+.tech-project {
+     border: 1px solid var(--mainBorderColor);
+    border-radius: 5px;
+}
 
 
 .card--project{
@@ -151,7 +156,11 @@ li{
 }
 
 
-
+footer{
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
 
 
 @media(max-width:600px){
